@@ -17,7 +17,7 @@ Challenge number | Challenge code | Description
 5 | `[Challenge 5]` | Learn about the inner workings and applications of semantic caching in the solution accelerator.
 6 | `[Challenge 6]` | Learn about implementing system commands based on user input in the solution accelerator.
 
-> [!IMPORTANT] We recommend that you complete the challenges in the order they are presented. The challenges are designed to build on each other, and completing them in order will help you understand the solution accelerator better.
+> [IMPORTANT!] We recommend that you complete the challenges in the order they are presented. The challenges are designed to build on each other, and completing them in order will help you understand the solution accelerator better.
 
 Except for Challenge 1, each challenge will have a set of coding tasks that you need to complete. This repo provides you with the starter project (under the `code/starter` folder).
 
