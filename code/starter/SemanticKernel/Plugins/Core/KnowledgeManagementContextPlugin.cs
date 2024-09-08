@@ -14,7 +14,8 @@ using System.ComponentModel;
 namespace BuildYourOwnCopilot.SemanticKernel.Plugins.Core
 {
     /// <summary>
-    /// AdvancedChatPlugin provides the capability to build the context for chat completions by recalling object information from the long term memory using vector-based similarity.
+    /// Provides the capability to build the context for chat completions by recalling
+    /// object information from the long term memory using vector-based similarity.
     /// Optionally, a short-term, volatile memory can be also used to enhance the result set.
     /// </summary>
     public sealed class KnowledgeManagementContextPlugin
@@ -25,7 +26,7 @@ namespace BuildYourOwnCopilot.SemanticKernel.Plugins.Core
         private readonly ILogger<KnowledgeManagementContextPlugin> _logger;
 
         /// <summary>
-        /// Creates a new instance of the AdvancedChatPlugin
+        /// Creates a new instance of the KnowledgeManagementContextPlugin.
         /// </summary>
         public KnowledgeManagementContextPlugin(
             string systemPrompt,

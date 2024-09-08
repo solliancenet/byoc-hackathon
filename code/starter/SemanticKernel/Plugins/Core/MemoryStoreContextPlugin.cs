@@ -20,7 +20,7 @@ namespace BuildYourOwnCopilot.SemanticKernel.Plugins.Core
         private readonly ILogger<MemoryStoreContextPlugin> _logger;
 
         /// <summary>
-        /// Creates a new instance of the AdvancedChatPlugin
+        /// Creates a new instance of the MemoryStoreContextPlugin.
         /// </summary>
         public MemoryStoreContextPlugin(
             VectorMemoryStore memoryStore,
