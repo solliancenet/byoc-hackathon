@@ -113,3 +113,15 @@ Here are some suggested readings that will help you address the tasks in the cha
 
 Open-ended exercises (recommended to be completed at the end of the hackathon):
 - Create a new system command and plug it into the system.
+
+Temporary docker fix:
+
+```
+services:
+    ChatAPI:
+        host: containerapp
+        image: crdszvooit6qzhq.azurecr.io/buildyourowncopilot/chatapi-byoc-01:azd-deploy-1722937955
+    UserPortal:
+        host: containerapp
+        image: crdszvooit6qzhq.azurecr.io/buildyourowncopilot/userportal-byoc-01:azd-deploy-1722937987
+```
