@@ -116,12 +116,29 @@ Open-ended exercises (recommended to be completed at the end of the hackathon):
 
 Temporary docker fix:
 
-```
-services:
-    ChatAPI:
-        host: containerapp
-        image: crdszvooit6qzhq.azurecr.io/buildyourowncopilot/chatapi-byoc-01:azd-deploy-1722937955
-    UserPortal:
-        host: containerapp
-        image: crdszvooit6qzhq.azurecr.io/buildyourowncopilot/userportal-byoc-01:azd-deploy-1722937987
-```
+azd hooks run predeploy
+azd provision
+Update the images in ACR
+azd hooks run postdeploy
+
+
+Instructions to update the images:
+
+Go to the ca-chatservicew-.. container app in the resource group
+Select Application -> Revisions and replicas
+Select Create new revision from the top toolbar
+Select the container image named main
+Set Image source to Docker Hub or other registries
+Set Authentication to Public
+Set registry login server to `crdszvooit6qzhq.azurecr.io`
+Set Image and tag to `buildyourowncopilot/chatapi-byoc-01:azd-deploy-1722937955`
+
+
+Go to the ca-search-.. container app in the resource group
+Select Application -> Revisions and replicas
+Select Create new revision from the top toolbar
+Select the container image named main
+Set Image source to Docker Hub or other registries
+Set Authentication to Public
+Set registry login server to `crdszvooit6qzhq.azurecr.io`
+Set Image and tag to `buildyourowncopilot/userportal-byoc-01:azd-deploy-1722937987`
