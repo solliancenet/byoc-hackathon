@@ -88,7 +88,7 @@ Once you complete the steps above for running locally, take these artifacts and 
 > [!NOTE]
 > As you might have noticed already, the solution accelerator repository is a public repository. Since this hackathon is based on the solution accelerator, the full set of solutions for the challenges and their exercises are easibly accessible in the solution accelerator repository. Copying and pasting them allows one to complete the hackathon in probably less than a half hour. That would completely defeat the purpose of this exercise which is to produce the solutions on your own, by understanding the inner workings of the solution accelerator and the technologies it is built upon. This is why we strongly encourage you to try to solve the challenges on your own first. If you get stuck, you can always refer to the solution accelerator repository for guidance, but that should be your last resort.
 
-## Beginning the Coding Challenges
+## Finding the Coding Challenges
 
 The remainder of this hackathon will be spent learning concepts and implementing them in Visual Studio writing code. 
 
@@ -120,13 +120,17 @@ This challenge is intended to get you familar with Semantic Kernel that is used 
 - [Embeddings](https://platform.openai.com/docs/guides/embeddings/use-cases)
 - [Build Your Own Copilot with Azure Cosmos DB - Key Concepts](https://github.com/Azure/BuildYourOwnCopilot/blob/main/docs/concepts.md)
 
-You may now go to the starter solution in Visual Studio and complete Challege 2. This challenge does not have open-ended exercises.
+You may now go to the starter solution in Visual Studio and complete Challege 2. Locate the exercises by searching for `//TODO: [Challenge 2]` as shown in [Finding the Coding Challenges](#finding-the-coding-challenges). Then complete each exercise.
+
+This challenge does not have open-ended exercises.
 
 ## Challenge 3: Learn about intercepting and using key assets from Semantic Kernel's inner workings
 
 Before completing this challenge, here are some suggested readings that will help you address the tasks in the challenge:
 
 - [Using Filters in Semantic Kernel](https://devblogs.microsoft.com/semantic-kernel/filters-in-semantic-kernel/)
+
+You may now go to the starter solution in Visual Studio and complete Challege 3. Locate the exercises by searching for `//TODO: [Challenge 3]` as shown in [Finding the Coding Challenges](#finding-the-coding-challenges). Then complete each exercise.
 
 Open-ended exercises (recommended to be completed at the end of the hackathon):
 - Exercise `3.3.1` - implement your own `IFunctionInvocationFilter`.
@@ -137,6 +141,9 @@ Here are some suggested readings that will help you address the tasks in the cha
 
 - [Prompt injection article from the Open Worldwide Application Security Project (OWASP)](https://genai.owasp.org/llmrisk/llm01-prompt-injection/) to understand the core principles of prompt injection vulnerabilities.
 
+You may now go to the starter solution in Visual Studio and complete Challege 4. Locate the exercises by searching for `//TODO: [Challenge 4]` as shown in [Finding the Coding Challenges](#finding-the-coding-challenges). Then complete each exercise.
+
+
 Open-ended exercises (recommended to be completed at the end of the hackathon):
 - Implement an `ISystemPromptService` class that retrieves the system prompt from a different source (e.g., Azure Cosmos DB, GitHub, etc.) and use it in the solution.
 
@@ -145,12 +152,16 @@ Open-ended exercises (recommended to be completed at the end of the hackathon):
 Here are some suggested readings that will help you address the tasks in the challenge:
 - [Build Your Own Copilot with Azure Cosmos DB - Key Concepts](https://github.com/Azure/BuildYourOwnCopilot/blob/main/docs/concepts.md)
 
+You may now go to the starter solution in Visual Studio and complete Challege 5. Locate the exercises by searching for `//TODO: [Challenge 5]` as shown in [Finding the Coding Challenges](#finding-the-coding-challenges). Then complete each exercise.
+
 This challenge does not have open-ended exercises.
 
 ## Challenge 6: Learn about implementing system commands based on user input
 
 Here are some suggested readings that will help you address the tasks in the challenge:
 - [Build Your Own Copilot with Azure Cosmos DB - Key Concepts](https://github.com/Azure/BuildYourOwnCopilot/blob/main/docs/concepts.md)
+
+You may now go to the starter solution in Visual Studio and complete Challege 6. Locate the exercises by searching for `//TODO: [Challenge 6]` as shown in [Finding the Coding Challenges](#finding-the-coding-challenges). Then complete each exercise.
 
 Open-ended exercises (recommended to be completed at the end of the hackathon):
 - Create a new system command and plug it into the system.
